@@ -33,7 +33,7 @@ header{
 
 .cabecalho-link{
     color: var(--corPrincipal);
-    font-family: var(--fonteSecundaria);
+    font-family: var(--fontePrincipal);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -47,7 +47,7 @@ main{
 }
 
 .container-texto-titulo{
-    font-family: var(--fonteSecundaria);
+    font-family: var(--fontePrincipal);
     color:var(--corTerciaria);
     padding-bottom: 60px ;
     font-size: 36px;
