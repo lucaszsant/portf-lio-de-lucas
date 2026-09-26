@@ -15,9 +15,10 @@
 
 body{
     box-sizing: border-box;
-    background-color: var(--corSecundaria);
+    background: linear-gradient(120deg, #000000, #080808, #000000);
     color: var(--corTerciaria);
 }
+
 
 header{
     background-color: var(--corSecundaria);
@@ -104,7 +105,7 @@ main{
     height: 500px;
     object-fit: cover;
     border-radius: 8px;
-  transform:translateY(-50px);
+  transform:translateY(-85px);
 }
 
 .sobre-container{
