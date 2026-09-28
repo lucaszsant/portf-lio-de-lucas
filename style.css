@@ -158,6 +158,37 @@ main:has(.sobre-container){
     padding-left: 25px;
 }
 
-@media(max-width:){
-
+@media(max-width:768px){
+    main{
+        flex-direction: column;
+        align-items: center;
+        padding:80px 20px 50px;
+        gap:40px;
+        height:auto;
+    }
+    .container-texto-paragrafo{
+        width: 100%;
+        max-width: 500px;
+    }
+    .container-foto img{
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        transform: none;
+    }
+    .sobre-container{
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+    .sobre-texto{
+        width:100%;
+        max-width: 500px;
+    }
+    .Foto-sobre{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
 }
